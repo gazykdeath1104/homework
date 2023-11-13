@@ -1,0 +1,134 @@
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+   
+.header { 
+    background-color: #EEEFF1;
+}
+
+.menu-links {
+    display: flex;
+    gap: 42px;
+    max-width: 638px;
+    padding: 79px 0 143px 0;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+.link-active {
+    color: #34547a;
+}
+
+.title {
+    margin-bottom: 65px;
+    color: #000;
+    font-size: 48px;
+}
+
+.text {
+    margin-bottom: 60px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.link-inside {
+    display: inline-block;
+    margin-bottom: 141px;
+    padding: 14px 62px;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #34547A;
+}
+
+
+
+.about-title {
+    padding: 112px 0 0 500px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.about-text{
+    width: 540px;
+    padding: 50px 0 100px 290px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+.project {
+    padding: 100px 0;
+    background-color: #34547A;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.number {
+    padding-right: 40px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.video {
+    background-color: #EEEFF1;
+}
+
+.work-title {
+    padding-top: 100px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.work-text {
+    width: 540px;
+    padding: 50px 0 57px 290px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.footer {
+   background-color: #34547A;
+} 
+
+.name {
+    width: 130px;
+    padding: 50px 0 0 406px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 21px;
+}
+
+.year {
+    width: 193px;
+    padding: 20px 0 50px 406px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+}
