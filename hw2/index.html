@@ -6,7 +6,57 @@
     <title>HYPOCRISY</title>
   </head>
   <body>
-    <nav>
+    "
+    <footer class="footer">
+      <address class="address footer__address">
+        <a href="tel:+70000000000">+9 999 555 5555</a><br />
+        <a href="mailto:mail@example.com">info@sobaka.ge</a><br />
+        <p>наб. Принсенграхт 263-265,<br />Амстердам</p>
+      </address>
+      <nav class="footer__menu">
+        <ul class="footer__links-list">
+          <li class="footer__links-list-item footer__link_active">
+            <a class="footer__links-list-item_no-bullit">главная</a>
+          </li>
+          <li class="footer__links-list-item">
+            <a class="footer__link" href="#0">посмотреть лоты</a>
+          </li>
+          <li class="footer__links-list-item">
+            <a class="footer__link" href="#0">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="footer__socials-links">
+        <li class="socials-links">
+          <a href="#0">
+            <img
+              class="footer__social-icon"
+              src="./images/yt.svg"
+              alt="YouTube"
+            />
+          </a>
+        </li>
+        <li class="socials-links">
+          <a href="#0">
+            <img
+              class="footer__social-icon"
+              src="./images/vk.svg"
+              alt="Вконтакте"
+            />
+          </a>
+        </li>
+        <li class="socials-links">
+          <a href="#0">
+            <img
+              class="footer__social-icon"
+              src="./images/pinterest.svg"
+              alt="Пинтерест"
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <!-- <nav>
       <ul>
         <li><a href="/pages/about.html">History</a></li>
         <li><a href="/pages/contact.html">Contacts</a></li>
@@ -50,6 +100,41 @@
       }
       iframe {
         margin-left: 370px;
+      }
+    </style> -->
+    <style>
+            ".footer {
+        display: flex;
+        justify-content: space-between;
+        margin: 180px 50px 90px 50px;
+      }
+
+      .footer__address{
+        margin-left: 2px;
+      }
+
+      .footer__links-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #000;
+        font-weight: 400;
+        font-size: 18px;
+        list-style-type: none;
+        text-decoration: none;
+      }
+
+      .footer__socials-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 240px;
+        list-style-type: none;
+      }
+
+      .socials-links {
+        width: 44px;
+        height: 44px;
       }
     </style>
   </body>
